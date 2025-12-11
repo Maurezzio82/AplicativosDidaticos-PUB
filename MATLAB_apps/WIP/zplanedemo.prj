@@ -1,0 +1,86 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="535434438" file="/home/dimas/Documents/GitHub/AplicativosDidaticos-PUB/MATLAB_apps/WIP/zplanedemo.prj" location="/home/dimas/Documents/GitHub/AplicativosDidaticos-PUB/MATLAB_apps/WIP" name="zplanedemo" target="target.mlapps" target-name="Package App">
+    <param.appname>zplanedemo</param.appname>
+    <param.authnamewatermark>Maurício Garcia Di Mse</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>demonstração dos diferentes métodos de discretização e do mapeamento do plano s para o plano z.</param.description>
+    <param.screenshot>/tmp/tp5dbe5eaa_7048_4ac8_8149_3192522fa681.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/home/dimas/Documents/GitHub/AplicativosDidaticos-PUB/MATLAB_apps/Apps Compilados</param.output>
+    <param.guid>f19ccdac-fdea-45fb-9ba6-16228d49b5cb</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/zplanedemo.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/dimas/Documents/GitHub/AplicativosDidaticos-PUB/MATLAB_apps" name="Apps Compilados" optional="false">/home/dimas/Documents/GitHub/AplicativosDidaticos-PUB/MATLAB_apps/Apps Compilados</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2024b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>6.8.0-87-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
