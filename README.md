@@ -142,7 +142,7 @@ Esta opção é recomendada para distribuição a alunos, pois:
 
 ---
 
-### 🔧 Como compilar o aplicativo
+### Como compilar o aplicativo
 
 Se você deseja gerar o pacote instalável:
 
@@ -166,4 +166,4 @@ Isso irá gerar um arquivo:
 
 ✔ Estrutura inicial criada  
 ✔ Três aplicativos implementados  
-🔜 Novos apps didáticos em desenvolvimento
+Novos apps didáticos em desenvolvimento
